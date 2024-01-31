@@ -1,6 +1,9 @@
 import pygame, math, os
 pygame.init()
 
+if not os.path.exists(os.path.join(os.path.dirname(os.path.abspath(__file__)), "config_profiles")):
+	os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), "config_profiles"))
+
 class Config():
 
 	def __init__(self):
