@@ -1,0 +1,32 @@
+{
+"draw_ecks":False,
+"eck_color":(0, 255, 0),
+
+"draw_walls":True,
+"draw_walls_base":False,
+"wall_color":(200, 100, 255),
+
+"draw_points":True,
+"point_color":(212, 175, 55),
+
+"draw_score":True,
+"score_color":(255, 255, 255),
+
+"draw_pac_man":True,
+"draw_pac_man_base":False,
+"pac_man_color":(255, 255, 0),
+
+"fill_screen":True,
+"fill_screen_color":(0, 0, 0),
+
+"draw_ghost":True,
+"draw_ghost_base":False,
+"ghost_color":(255, 0, 0),
+
+"draw_button_base":False,
+"draw_button_text":True,
+"button_text_color":(55, 55, 55),
+"button_color":(255, 0, 0),
+
+"text_color":(255, 255, 255)
+}
