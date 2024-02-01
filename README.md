@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
+  <head>    
   </head>
   <body>
     <p1>Pac Man in Python</p1>
