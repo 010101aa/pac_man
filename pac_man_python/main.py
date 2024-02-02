@@ -617,18 +617,12 @@ class Edit():
 
 							except Exception:
 								new_tulpe = config.config_dict[self.input_key]
-
-							print(new_tulpe)
-
+								
 							self.temp_config_dict.update({self.input_key:new_tulpe})
 
 							config.config_dict = self.temp_config_dict
 							with open(config.dir_path + "/config.txt", "w") as file:
 								file.write(str(config.config_dict))
-
-							print(config.dir_path + "/config.txt")
-							with open(config.dir_path + "/config.txt", "r") as file:
-								print(file.read())
 
 							self.input_string = ""
 							self.temp_config_dict = config.config_dict
