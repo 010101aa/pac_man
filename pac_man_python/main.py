@@ -38,8 +38,8 @@ class Config():
 		self.button_text_color = self.config_dict["button_text_color"]
 
 	def reset(self):
-		with open(self.dir_path + "config.txt", "w") as file:
-			with open(self.dir_path + "config_back_up.txt", "r") as back_up_file:
+		with open(self.dir_path + "/config.txt", "w") as file:
+			with open(self.dir_path + "/config_back_up.txt", "r") as back_up_file:
 				file.write(back_up_file.read())
 
 config = Config()
@@ -618,11 +618,17 @@ class Edit():
 							except Exception:
 								new_tulpe = config.config_dict[self.input_key]
 
+							print(new_tulpe)
+
 							self.temp_config_dict.update({self.input_key:new_tulpe})
 
 							config.config_dict = self.temp_config_dict
-							with open(config.dir_path + "config.txt", "w") as file:
+							with open(config.dir_path + "/config.txt", "w") as file:
 								file.write(str(config.config_dict))
+
+							print(config.dir_path + "/config.txt")
+							with open(config.dir_path + "/config.txt", "r") as file:
+								print(file.read())
 
 							self.input_string = ""
 							self.temp_config_dict = config.config_dict
