@@ -7,8 +7,8 @@
     <br><br>
     <p3>A small Pac Man Game in python</p3>
     <br><br>
-      download the zip and move to your desktop
+      download the zip (top right under code: zip) and move to your desktop
       <br>
-      then open the eun file for your os
+      then open the run file for your os
   </body>
 </html>
