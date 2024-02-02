@@ -1,0 +1,39 @@
+Anleitung für Pacman:
+
+	1. Ziel des Spiels:
+	   - Das Ziel von Pacman ist es, den Geistern auszuweichen und so lange wie möglich zu überleben.
+
+	2. Steuerung:
+	   - Verwende die Pfeiltasten (oben, unten, links, rechts), um Pacman zu bewegen.
+
+	3. Vermeiden von Geistern:
+	   - Achte darauf, den Geistern auszuweichen, während du Pacman bewegst.
+	   - Wenn ein Geist Pacman berührt, verlierst du.
+
+	5. Levelabschluss:
+	   - Du hast gewonnen wenn du alle Punkte eingesammelt hast.
+
+	6. Viel Spaß beim Spielen!
+
+Über das Programm:
+	-knapp 1000 Linien
+
+	-Module:
+		-Pygame
+		-os
+		-math
+
+	-Entwickler:
+		Simon
+
+	-Button Texturen:
+		Geometry Dash
+
+	-alle anderen Texturen:
+		Simon
+
+	-idee:
+		Ole
+
+	-Kommentare:
+		keine lol
