@@ -978,9 +978,9 @@ class Menu():
 
 		ghost = Ghost(25, 25, config.dir_path + "/images/ghost/ghost_left_red.png", config.dir_path + "/images/ghost/ghost_right_red.png")
 
-		ghost_2 = Ghost(625, 25, config.dir_path + "/images/ghost/ghost_left_yellow.png", config.dir_path + "images/ghost/ghost_right_yellow.png")
+		ghost_2 = Ghost(625, 25, config.dir_path + "/images/ghost/ghost_left_yellow.png", config.dir_path + "/images/ghost/ghost_right_yellow.png")
 
-		ghost_3 = Ghost(25, 650, config.dir_path + "/images/ghost/ghost_left_purple.png", config.dir_path + "images/ghost/ghost_right_purple.png")
+		ghost_3 = Ghost(25, 650, config.dir_path + "/images/ghost/ghost_left_purple.png", config.dir_path + "/images/ghost/ghost_right_purple.png")
 
 		ghost_list = [ghost, ghost_2, ghost_3]
 
